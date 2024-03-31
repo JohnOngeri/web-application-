@@ -1,0 +1,84 @@
+body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    background-color: #fafafa;
+}
+
+#app {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h1 {
+    font-size: 28px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+form {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+form input[type="text"],
+form select,
+form button,
+button {
+    flex: 1;
+    padding: 10px;
+    font-size: 16px;
+}
+
+form input[type="text"],
+form select {
+    margin-right: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+form button,
+button {
+    border: none;
+    background-color: #3897f0;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+    display: block;
+    margin: 20px auto;
+    padding: 15px 30px; /* Enlarge button */
+}
+
+form button:hover,
+button:hover {
+    background-color: #2680c2;
+}
+
+#task-list {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+}
+
+#task-list > div {
+    margin-bottom: 10px;
+}
+
+#task-list > div select {
+    padding: 5px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+    font-size: 16px;
+}
+
+li:last-child {
+    border-bottom: none;
+}
