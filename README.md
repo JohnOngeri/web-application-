@@ -6,7 +6,7 @@ This is a simple web application for managing tasks using HTML, CSS, and JavaScr
 How to Run the Application Locally
 Clone this repository to your local machine:
 
-git clone https://github.com/yourusername/project-management-app.git
+git clone https://github.com/yourusername/web-application-.git
 
 **Navigate to the project directory:**
 
