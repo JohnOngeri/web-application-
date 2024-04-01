@@ -24,22 +24,21 @@ Make sure you have Docker installed on your machine. You can download and instal
 In the terminal, navigate to the project directory:
 
 
-cd project-management-app
+cd web-application-
 Build the Docker image using the provided Dockerfile:
 
-docker build -t web-application-
+ sudo docker build -t web-application .
 
-Replace web-application- with the name you want to give to your Docker image.
+Replace web-application with the name you want to give to your Docker image.
 
 Once the image is built, you can run a container using the image:
 
-bash
-Copy code
-docker run -d -p 8080:80 web-application-
+
+sudo docker run -d -p 8080:80 web-application
 
 This command will start a container in detached mode (-d) and map port 8080 on your host machine to port 80 on the container.
 
-Open your web browser and navigate to http://localhost:8080 to access the application.
+Open your web browser and navigate to (http://localhost:8080) to access the application.
 
 **Assumptions and Decisions Made During Development**
 During the development process, the following assumptions and decisions were made:
