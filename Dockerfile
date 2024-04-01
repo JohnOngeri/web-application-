@@ -8,7 +8,7 @@ WORKDIR /usr/share/nginx/html
 COPY index.html .
 COPY style.css .
 COPY script.js .
-COPY favicon.ico .
+
 
 # Expose port 80 to allow external access
 EXPOSE 80
