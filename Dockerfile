@@ -6,7 +6,7 @@ WORKDIR /usr/share/nginx/html
 
 # Copy the HTML, CSS, JavaScript, and favicon files into the container
 COPY index.html .
-COPY style.css .
+COPY styles.css .
 COPY script.js .
 
 
